@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.top-bar {
+  align-content: center;
+  align-items: center;
+  column-gap: 2px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 540px;
+  position: relative;
+}
+
+.top-bar-btn {
+  background: 0 0;
+  border: none;
+  color: #cb5148;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 20px;
+}
